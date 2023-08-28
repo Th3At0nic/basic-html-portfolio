@@ -112,6 +112,22 @@ main {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
+}
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+/* skills container styles */
+.skills-container {
+  display: flex;
+}
+.skill {
+  width: 267px;
+  padding:10px;
+  margin: 10px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 5px 20px rgb(0, 0, 0);
 }
