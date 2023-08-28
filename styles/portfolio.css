@@ -142,9 +142,24 @@ main section {
 /* resume section styles */
 .resume-container {
   display: flex;
+  gap: 50px;
 }
 .resume-collumn-title {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+
+.resume-item-institute,
+.resume-item-description {
+  color: #757575;
+}
+
+.resume-container hr {
+  margin: 20px 0px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
